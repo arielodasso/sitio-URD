@@ -31,7 +31,24 @@ class InfantilModel {
         
         return $equiposB;
     }
-
+    public function insertEquipoUndecimaA($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('12', ?, 'A', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoUndecimaA($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
+    public function insertEquipoUndecimaB($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('12', ?, 'B', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoUndecimaB($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
 
 
 
@@ -56,7 +73,24 @@ class InfantilModel {
         
         return $equiposB;
     }
-
+    public function insertEquipoDecimaA($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('8', ?, 'A', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoDecimaA($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
+    public function insertEquipoDecimaB($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('8', ?, 'B', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoDecimaB($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
 
 
 
@@ -81,7 +115,24 @@ class InfantilModel {
         
         return $equiposB;
     }
-
+    public function insertEquipoNovenaA($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('9', ?, 'A', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoNovenaA($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
+    public function insertEquipoNovenaB($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('9', ?, 'B', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoNovenaB($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
 
 
 
@@ -106,7 +157,24 @@ class InfantilModel {
         
         return $equiposB;
     }
-
+    public function insertEquipoOctavaA($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('10', ?, 'A', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoOctavaA($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
+    public function insertEquipoOctavaB($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('10', ?, 'B', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoOctavaB($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
 
 
 
@@ -132,5 +200,22 @@ class InfantilModel {
         
         return $equiposB;
     }
-    
+    public function insertEquipoSeptimaA($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('11', ?, 'A', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoSeptimaA($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
+    public function insertEquipoSeptimaB($equipo, $nombreEscudo) {
+        $query = $this->db->prepare("INSERT INTO tablasInfantil (id_categoria_fk, equipo, zona, puntos, pj, dg, escudo) VALUES ('11', ?, 'B', '0', '0', '0', ?)");
+        $query->execute([$equipo, $nombreEscudo]);
+        return $this->db->lastInsertId();
+    }
+    public function deleteEquipoSeptimaB($id) {
+        $query = $this->db->prepare('DELETE FROM tablasInfantil WHERE id = ?');
+        $query->execute([$id]);
+    }
 }

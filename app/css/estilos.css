@@ -594,7 +594,6 @@ footer .btn-developers .modal-window div:not(:last-of-type){
     }
     .cont-form-admin form .btn{
         float: right;
-        background-color: rgb(46,186,183);
     }
     .cont-form-admin form .form-select{
         margin-bottom: 30px;
@@ -862,15 +861,38 @@ footer .btn-developers .modal-window div:not(:last-of-type){
     .cont-tablas-edicion .tablaA .table .td-escudo, .cont-tablas-edicion .tablaB .table .td-escudo{
         text-align: center;
     }
+    tbody td .input-datos-tablas{
+        width: 50%;
+    }
     table img{
         max-height: 40px;
     }
 
-    .cont-tabla-edicion .tablaA input, .cont-tabla-edicion .tablaB input{
-        margin-bottom: 5px;
-        padding: 5px;
-        width: 100%;
-    }
-    .cont-tabla-edicion .tablaA button, .cont-tabla-edicion .tablaB button{
-        margin-bottom: 30px;
-    }
+.form-edit-equipo{
+    padding: 50px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.form-edit-equipo .equipo{
+    display: flex;
+    margin-bottom: 30px;
+    vertical-align: center;
+}
+.form-edit-equipo .equipo img{
+    max-height: 70px;
+    margin-right: 20px;
+}
+
+.form-edit-equipo .form-group label{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.form-edit-equipo .form-group .form-control{
+    margin-bottom: 30px;
+    max-width: 30%;
+}
+.form-edit-equipo .form-group .inputDesactivado{
+    background-color: rgba(236, 236, 236, 0.641)
+}

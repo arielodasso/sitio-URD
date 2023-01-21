@@ -22,7 +22,7 @@
                 </div>
             {/if}
             
-            <button type="submit" class="btn">Ingresar</button>
+            <button type="submit" class="btn btn-success">Ingresar</button>
         </form>
     </div>
 </section>

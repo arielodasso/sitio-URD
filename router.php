@@ -288,6 +288,374 @@ switch ($params[0]) {
         $noticiaController->updateNoticia();
         break;
 
+
+
+
+
+    // CRUD Equipos Primera Masculino
+    case 'agregarEquipoPrimeraA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoPrimeraA();
+        break;
+    case 'borrarEquipoPrimeraA':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoPrimeraA($id);
+        break;
+    case 'editarEquipoPrimeraA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoPrimeraA($params[1]);
+        break;
+    case 'updateEquipoPrimeraA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoPrimeraA();
+        break;
+
+    case 'agregarEquipoPrimeraB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoPrimeraB();
+        break;
+    case 'borrarEquipoPrimeraB':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoPrimeraB($id);
+        break;
+    case 'editarEquipoPrimeraB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoPrimeraB($params[1]);
+        break;
+    case 'updateEquipoPrimeraB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoPrimeraB();
+        break;
+
+
+
+
+
+
+    // CRUD Equipos Reserva Masculino
+    case 'agregarEquipoReservaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoReservaA();
+        break;
+    case 'borrarEquipoReservaA':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoReservaA($id);
+        break;
+    case 'editarEquipoReservaA':
+    $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoReservaA($params[1]);
+    break;
+    case 'updateEquipoReservaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoReservaA();
+        break;
+    case 'agregarEquipoReservaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoReservaB();
+        break;
+    case 'borrarEquipoReservaB':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoReservaB($id);
+        break;
+    case 'editarEquipoReservaB':
+    $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoReservaB($params[1]);
+    break;
+    case 'updateEquipoReservaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoReservaB();
+        break;
+
+
+    // CRUD Equipos Quinta Masculino
+    case 'agregarEquipoQuintaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoQuintaA();
+        break;
+    case 'borrarEquipoQuintaA':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoQuintaA($id);
+        break;
+    case 'editarEquipoQuintaA':
+    $masculinoController = new MasculinoController();
+    $masculinoController->editEquipoQuintaA($params[1]);
+    break;
+    case 'updateEquipoQuintaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoQuintaA();
+        break;
+    case 'agregarEquipoQuintaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoQuintaB();
+        break;
+    case 'borrarEquipoQuintaB':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoQuintaB($id);
+        break;
+    case 'editarEquipoQuintaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoQuintaB($params[1]);
+        break;
+    case 'updateEquipoQuintaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoQuintaB();
+        break;
+
+
+    // CRUD Equipos Sexta Masculino
+    case 'agregarEquipoSextaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoSextaA();
+        break;
+    case 'borrarEquipoSextaA':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoSextaA($id);
+        break;
+    case 'editarEquipoSextaA':
+    $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoSextaA($params[1]);
+    break;
+    case 'updateEquipoSextaA':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoSextaA();
+        break;
+    case 'agregarEquipoSextaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->addEquipoSextaB();
+        break;
+    case 'borrarEquipoSextaB':
+        $id = $params[1];
+        $masculinoController = new MasculinoController();
+        $masculinoController->deleteEquipoSextaB($id);
+        break;
+    case 'editarEquipoSextaB':
+    $masculinoController = new MasculinoController();
+        $masculinoController->editEquipoSextaB($params[1]);
+    break;
+    case 'updateEquipoSextaB':
+        $masculinoController = new MasculinoController();
+        $masculinoController->updateEquipoSextaB();
+        break;
+
+
+    // CRUD Equipos Femenino
+    case 'agregarEquipoPrimeraFemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->addEquipoPrimeraA();
+        break;
+    case 'borrarEquipoPrimeraFemA':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoPrimeraA($id);
+        break;
+    case 'editarEquipoPrimeraFemA':
+    $femeninoController = new FemeninoController();
+    $femeninoController->editEquipoPrimeraFemA($params[1]);
+    break;
+    case 'updateEquipoPrimeraFemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoPrimeraFemA();
+        break;
+    case 'agregarEquipoPrimeraFemB':
+    $femeninoController = new FemeninoController();
+    $femeninoController->addEquipoPrimeraB();
+    break;
+    case 'borrarEquipoPrimeraFemB':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoPrimeraB($id);
+        break;
+    case 'editarEquipoPrimeraFemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->editEquipoPrimeraFemB($params[1]);
+        break;
+    case 'updateEquipoPrimeraFemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoPrimeraFemB();
+        break;
+
+    // CRUD Equipos Femenino
+    case 'agregarEquipoSub15FemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->addEquipoSub15A();
+        break;
+    case 'borrarEquipoSub15FemA':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoSub15A($id);
+        break;
+    case 'editarEquipoSub15FemA':
+    $femeninoController = new FemeninoController();
+    $femeninoController->editEquipoSub15FemA($params[1]);
+    break;
+    case 'updateEquipoSub15FemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoSub15FemA();
+        break;
+    case 'agregarEquipoSub15FemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->addEquipoSub15B();
+        break;
+    case 'borrarEquipoSub15FemB':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoSub15B($id);
+        break;
+    case 'editarEquipoSub15FemB':
+    $femeninoController = new FemeninoController();
+    $femeninoController->editEquipoSub15FemB($params[1]);
+    break;
+    case 'updateEquipoSub15FemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoSub15FemB();
+        break;
+    // CRUD Equipos Femenino
+    case 'agregarEquipoSub14FemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->addEquipoSub14A();
+        break;
+    case 'borrarEquipoSub14FemA':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoSub14A($id);
+        break;
+    case 'editarEquipoSub14FemA':
+    $femeninoController = new FemeninoController();
+    $femeninoController->editEquipoSub14FemA($params[1]);
+    break;
+    case 'updateEquipoSub14FemA':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoSub14FemA();
+        break;
+    case 'agregarEquipoSub14FemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->addEquipoSub14B();
+        break;
+    case 'borrarEquipoSub14FemB':
+        $id = $params[1];
+        $femeninoController = new FemeninoController();
+        $femeninoController->deleteEquipoSub14B($id);
+        break;
+    case 'editarEquipoSub14FemB':
+    $femeninoController = new FemeninoController();
+    $femeninoController->editEquipoSub14FemB($params[1]);
+    break;
+    case 'updateEquipoSub14FemB':
+        $femeninoController = new FemeninoController();
+        $femeninoController->updateEquipoSub14FemB();
+        break;
+
+
+
+    
+    // CRUD Equipos Infantil 11ma
+    case 'agregarEquipoDecimaInfantilA':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoDecimaA();
+        break;
+    case 'borrarEquipoDecimaInfantilA':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoDecimaA($id);
+        break;
+    case 'agregarEquipoDecimaInfantilB':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoDecimaB();
+        break;
+    case 'borrarEquipoDecimaInfantilB':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoDecimaB($id);
+        break;
+
+     // CRUD Equipos Infantil 10ma
+    case 'agregarEquipoUndecimaInfantilA':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoUndecimaA();
+        break;
+    case 'borrarEquipoUndecimaInfantilA':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoUndecimaA($id);
+        break;
+    case 'agregarEquipoUndecimaInfantilB':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoUndecimaB();
+        break;
+    case 'borrarEquipoUndecimaInfantilB':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoUndecimaB($id);
+        break;
+
+    // CRUD Equipos Infantil 11ma
+    case 'agregarEquipoNovenaInfantilA':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoNovenaA();
+        break;
+    case 'borrarEquipoNovenaInfantilA':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoNovenaA($id);
+        break;
+    case 'agregarEquipoNovenaInfantilB':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoNovenaB();
+        break;
+    case 'borrarEquipoNovenaInfantilB':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoNovenaB($id);
+        break;
+
+    // CRUD Equipos Infantil 11ma
+    case 'agregarEquipoOctavaInfantilA':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoOctavaA();
+        break;
+    case 'borrarEquipoOctavaInfantilA':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoOctavaA($id);
+        break;
+    case 'agregarEquipoOctavaInfantilB':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoOctavaB();
+        break;
+    case 'borrarEquipoOctavaInfantilB':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoOctavaB($id);
+        break;
+
+    // CRUD Equipos Infantil 11ma
+    case 'agregarEquipoSeptimaInfantilA':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoSeptimaA();
+        break;
+    case 'borrarEquipoSeptimaInfantilA':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoSeptimaA($id);
+        break;
+    case 'agregarEquipoSeptimaInfantilB':
+        $infantilController = new InfantilController();
+        $infantilController->addEquipoSeptimaB();
+        break;
+    case 'borrarEquipoSeptimaInfantilB':
+        $id = $params[1];
+        $infantilController = new InfantilController();
+        $infantilController->deleteEquipoSeptimaB($id);
+        break;
+
+
     // Default
     default:
         echo('404 Page not found');
